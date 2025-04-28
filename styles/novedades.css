@@ -1,86 +1,85 @@
 #novedades {
-    padding: 4rem 1rem;
-    text-align: center;
-    background: #f4f7f8;
-  }
-  
-  #novedades h3 {
-    color: #41696f;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  #novedades p {
-    color: #555;
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-  }
-  
-  .novedades-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-    flex-wrap: nowrap; /* Prevent wrapping */
-  }
-  
-  .novedades-card {
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    width: 30%; /* Makes each card take up 30% of the container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-  }
-  
-  .novedades-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-  }
-  
-  .novedades-card h4 {
-    color: #41696f;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .novedades-card p {
-    color: #666;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .novedades-btn {
-    background-color: #41696f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-  }
-  
-  .novedades-btn:hover {
-    background-color: #bae8dc;
-  }
-  
+  padding: 4rem 1rem;
+  text-align: center;
+  background: #f4f7f8;
+}
 
-  .novedades-card:hover {
-    transform: translateY(-5px);
+#novedades h3 {
+  color: #41696f;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#novedades p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.novedades-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.novedades-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 30%; /* Makes each card take up 30% of the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.novedades-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.novedades-card h4 {
+  color: #41696f;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.novedades-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.novedades-btn {
+  background-color: #41696f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.novedades-btn:hover {
+  background-color: #bae8dc;
+}
+
+.novedades-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .novedades-container {
+    flex-direction: column; /* Stack the cards on smaller screens */
+    align-items: center;
   }
-  
-  @media (max-width: 768px) {
-    .novedades-container {
-      flex-direction: column; /* Stack the cards on smaller screens */
-      align-items: center;
-    }
-  
-    .novedades-card {
-      width: 80%; /* Adjust card width on small screens */
-      margin-bottom: 20px; /* Add spacing between stacked cards */
-    }
+
+  .novedades-card {
+    width: 80%; /* Adjust card width on small screens */
+    margin-bottom: 20px; /* Add spacing between stacked cards */
   }
-  
+}

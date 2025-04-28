@@ -10,11 +10,7 @@
   gap: 2rem;
   margin-top: 2rem;
 }
-#paquetes h3 {
-  color: #41696f;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-}
+
 .paquete {
   background: white;
   border: 1px solid #ccc;
@@ -54,4 +50,16 @@
 
 .paquete-btn:hover {
   background-color: #38fac9;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .paquetes-container {
+    flex-direction: column; /* Stack the cards */
+  }
+
+  .paquete {
+    width: 80%; /* Adjust card width for smaller screens */
+    margin-bottom: 20px;
+  }
 }

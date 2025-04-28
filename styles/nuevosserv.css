@@ -1,62 +1,61 @@
 #nuevo-servicio {
-    background-color: #f4f7f8;
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-  
-  #nuevo-servicio h3 {
-    color: #41696f;
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-  }
-  
+  background-color: #f4f7f8;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+#nuevo-servicio h3 {
+  color: #41696f;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.nuevo-servicio-container {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between; 
+  gap: 20px;
+  align-items: center; 
+}
+
+.nuevo-servicio-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.nuevo-servicio-text {
+  width: 50%;
+  text-align: left;
+}
+
+.nuevo-servicio-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nuevo-servicio-img img {
+  width: 80%;
+  height: auto;
+  max-width: 400px;
+}
+
+.nuevo-servicio-text,
+.nuevo-servicio-img {
+  margin-bottom: 2rem;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
   .nuevo-servicio-container {
-    display: flex;
-    flex-direction: row; /* Asegura que la imagen y el texto estén alineados horizontalmente */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
-    gap: 20px;
-    align-items: center; /* Alinea los elementos verticalmente */
+    flex-direction: column; /* Stack elements vertically */
   }
-  
-  .nuevo-servicio-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-  }
-  
-  .nuevo-servicio-text {
-    width: 50%; /* El texto ocupa la mitad del espacio */
-    text-align: left; /* Alineación del texto a la izquierda */
-  }
-  
-  .nuevo-servicio-img {
-    width: 50%; /* La imagen ocupa la mitad del espacio */
-    display: flex;
-    justify-content: center;
-  }
-  .nuevo-servicio-img img {
-    width: 80%; /* Asegura que la imagen no sea demasiado grande */
-    height: auto;
-    max-width: 400px; /* Limita el tamaño máximo de la imagen */
-  }
-  
-  /* Elimina el width: 100% que estaba causando problemas */
+
   .nuevo-servicio-text,
   .nuevo-servicio-img {
-    margin-bottom: 2rem;
+    width: 100%;
+    text-align: center;
   }
-  
-  @media (max-width: 768px) {
-    /* En pantallas más pequeñas, se apilan los elementos */
-    .nuevo-servicio-container {
-      flex-direction: column; /* Cambia de horizontal a vertical */
-    }
-  
-    .nuevo-servicio-text,
-    .nuevo-servicio-img {
-      width: 100%; /* Hace que el texto y la imagen ocupen el 100% en pantallas pequeñas */
-      text-align: center; /* Centra el texto en pantallas pequeñas */
-    }
-  }
-  
+}
