@@ -41,3 +41,54 @@
     width: 80%; /* Stack cards in column format on smaller screens */
   }
 }
+
+/* Servicios Brindamos Responsiveness */
+@media (max-width: 768px) {
+  /* Ensure text appears above image */
+  #servicios-brindamos .servicios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicios-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .servicios-text {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .servicios-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Nuevo Servicio Section Responsiveness */
+@media (max-width: 768px) {
+  #nuevo-servicio .nuevo-servicio-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nuevo-servicio-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nuevo-servicio-text,
+  .nuevo-servicio-img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .nuevo-servicio-img img {
+    max-width: 100%;
+  }
+}

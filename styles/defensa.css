@@ -1,0 +1,64 @@
+#defensa-servicio {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+#defensa-servicio h3 {
+  color: #41696f;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.defensa-servicio-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.defensa-servicio-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.defensa-servicio-text {
+  width: 50%; 
+  text-align: left; 
+}
+
+.defensa-servicio-img {
+  width: 50%; 
+  display: flex;
+  justify-content: center; 
+}
+
+.defensa-servicio-img img {
+  width: 80%; 
+  height: auto;
+  max-width: 400px;
+}
+
+.defensa-servicio-text,
+.defensa-servicio-img {
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .defensa-servicio-container {
+    flex-direction: column; 
+  }
+
+  .defensa-servicio-text,
+  .defensa-servicio-img {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .defensa-servicio-img img {
+    max-width: 100%; 
+  }
+}
