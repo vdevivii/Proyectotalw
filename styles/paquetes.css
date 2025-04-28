@@ -1,0 +1,57 @@
+#paquetes {
+  padding: 4rem 1rem;
+  background: #f4f7f8;
+  text-align: center;
+}
+
+.paquetes-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+#paquetes h3 {
+  color: #41696f;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.paquete {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.paquete h4 {
+  color: #41696f;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.paquete ul {
+  list-style-type: none;
+  padding: 0;
+  color: #555;
+}
+
+.paquete ul li {
+  margin: 10px 0;
+}
+
+.paquete-btn {
+  background-color: #41696f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.paquete-btn:hover {
+  background-color: #38fac9;
+}

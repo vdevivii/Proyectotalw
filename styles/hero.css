@@ -1,0 +1,33 @@
+#hero {
+    background: linear-gradient(135deg, #41696f, #6ba8a9);
+    color: white;
+    text-align: center;
+    padding: 8rem 1rem 6rem;
+    position: relative;
+  }
+  
+  #hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-btn {
+    background-color: white;
+    color: #41696f;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #41696f;
+    color: white;
+  }
+  
