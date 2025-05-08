@@ -4,6 +4,13 @@
   text-align: center;
 }
 
+.paquetes-slider {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .paquetes-container {
   display: flex;
   justify-content: center;

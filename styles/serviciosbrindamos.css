@@ -1,0 +1,19 @@
+#servicios-brindamos {
+    background-color: #f4f7f8;
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 40px; 
+  }
+
+  #servicios-brindamos h3 {
+    color: #41696f;
+    font-size: 1.8rem;
+    margin-bottom: 20px; }
+  
+  #servicios-brindamos p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
