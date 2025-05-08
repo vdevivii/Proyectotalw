@@ -18,8 +18,7 @@ header {
 }
 
 .logo img {
-  width: 150px;
-}
+  width: 90px; /* Adjust this value to make the logo smaller */}
 
 nav ul {
   list-style: none;
@@ -36,9 +35,11 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #41696f;
-  font-weight: 500;
+  font-weight: 600; /* Optional: makes the text bolder */
+  font-size: 1.1rem; /* Adjust this value to make the text bigger */
   transition: color 0.3s;
 }
+
 
 nav ul li a:hover {
   color: #38fac9;
@@ -58,5 +59,12 @@ nav ul li a:hover {
 
   nav ul li {
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header .logo img {
+    width: 25vw;  /* Adjust this for smaller devices */
+    max-width: 100px; /* Set a maximum size */
   }
 }
